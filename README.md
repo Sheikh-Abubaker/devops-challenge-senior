@@ -88,7 +88,7 @@ This project sets up a **server-based AWS** infrastructure using **Terraform** t
         "arn:aws:iam::<your-account-id>:user/<your-username>"
         ```
 
-    3. Set your ARN as the principal_arn [here](terraform/terraform.tfvars):
+    3. Set your ARN as the principal_arn [here](terraform/terraform.tfvars)
 
         ```
         principal_arn = "arn:aws:iam::<your-account-id>:user/<your-username>"
@@ -137,7 +137,7 @@ The deployment process is intentionally split into **2 phases** due to critical 
 
       These are necessary to establish networking, EKS cluster and EKS access entries.
 
-      ✅ Run the following commands inside the [terraform/](./terraform) directory:
+      ✅ Run the following commands [here](./terraform) 
       ```
       terraform init
       terraform plan
