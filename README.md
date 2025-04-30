@@ -261,5 +261,12 @@ http://k8s-app-simplets-0ee6353f76-1311081194.us-east-1.elb.amazonaws.com
 --- 
 
 
-        
+## Deleting the Infrastructure
 
+To delete all the infrastructure created by Terraform, run the following command from the [here](./terraform/):
+
+```
+terraform destroy
+```
+
+---
