@@ -246,6 +246,8 @@ Copy the DNS name and open it in your browser:
 http://k8s-app-simplets-0ee6353f76-1311081194.us-east-1.elb.amazonaws.com
 ```
 
+> 📌 **Note:** Provisioning of Load Balancers is not instant, it takes a moment to come up and work as expected, if initially errors like `This site can’t be reached` occurs, try **reloading** or if it's been some decent time e.g 5 mins or above and the Load Balancer DNS name still shows the same error consider clearing **cache** from your browser and visit the DNS name again.
+
 ---
 
 ### 🖥️ **Option 2: Using the AWS Console**
