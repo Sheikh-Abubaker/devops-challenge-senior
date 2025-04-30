@@ -12,7 +12,15 @@
     "ip": "<the IP address of the visitor>"
   }
   ```
+---
+### 📋 Prerequisites
 
+  - Clone this repo.
+  - Install [Docker Desktop](https://www.docker.com/products/docker-desktop/).
+
+---
+
+### 📦 Running the container
 * Dockerfile of SimpleTimeService could be found [here](./app/Dockerfile).
 
     * To create the Docker image from Dockerfile:
@@ -28,6 +36,7 @@
 
 * Checkout my [Docker hub](https://hub.docker.com/r/sheikhabubaker19/simple-time-service) for the official Docker Image of SimpleTimeService.
 
+---
 ### IMPORTANT NOTE
 
 * SimpleTimeService is set to UTC timezone by default, however it is possible to change timezone by setting appropriate environment variables:
@@ -71,6 +80,7 @@ This project sets up a **server-based AWS** infrastructure using **Terraform** t
 
 ### 📋 Prerequisites
 
+  - Clone this repo.
   - Install [Terraform](https://developer.hashicorp.com/terraform/install)
   - Install [AWS CLI version 2](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
   - Setup [AWS CLI](https://docs.aws.amazon.com/eks/latest/userguide/install-awscli.html#configure-cli) (Create an access key and configure AWS CLI)
@@ -108,6 +118,7 @@ This project sets up a **server-based AWS** infrastructure using **Terraform** t
 
       You can customize this value by editing the kubernetes_deployment [resource](terraform/modules/kubernetes/main.tf), e.g., set it to Asia/Kolkata, America/New_York, etc.
 
+---
 ### 📦 Deploying the Infrastructure
 
 The deployment process is intentionally split into **2 phases** due to critical dependencies which arise after the EKS cluster is created:
@@ -202,6 +213,7 @@ The deployment process is intentionally split into **2 phases** due to critical 
             coredns-5d78c56f6-fgftn   1/1     Running   0          56s
             ```
 
+---
 - #### ✅ Phase 2: Apply Remaining Modules
     With the updated kubeconfig pointing to the newly created EKS cluster and CoreDNS pods up and running, you can now apply the remaining infrastructure:
 
