@@ -37,7 +37,7 @@
 * Checkout my [Docker hub](https://hub.docker.com/r/sheikhabubaker19/simple-time-service) for the official Docker Image of SimpleTimeService.
 
 ---
-### IMPORTANT NOTE
+### 🔴 IMPORTANT NOTE
 
 * SimpleTimeService is set to UTC timezone by default, however it is possible to change timezone by setting appropriate environment variables:
    ```
