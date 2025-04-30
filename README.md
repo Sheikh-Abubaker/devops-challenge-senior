@@ -37,7 +37,7 @@
 * Checkout my [Docker hub](https://hub.docker.com/r/sheikhabubaker19/simple-time-service) for the official Docker Image of SimpleTimeService.
 
 ---
-### 🔴 IMPORTANT NOTE
+### 🔴  IMPORTANT NOTE
 
 * SimpleTimeService is set to UTC timezone by default, however it is possible to change timezone by setting appropriate environment variables:
    ```
@@ -75,9 +75,12 @@ This project sets up a **server-based AWS** infrastructure using **Terraform** t
   - **AWS Load Balancer Controller**
   - **Kubernetes Ingress** resource  
   This allows public internet traffic to be routed via the ALB to the application running inside private subnets.
-
 ---
 
+![architecture](./architecture.png)
+
+
+---
 ### 📋 Prerequisites
 
   - Clone this repo.
