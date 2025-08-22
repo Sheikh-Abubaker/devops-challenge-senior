@@ -1,6 +1,6 @@
-# Particle41 DevOps Team Challenge
+# Simple Time Service Application
 
-## Task 1 - Minimalist Application Development / Docker / Kubernetes
+## Step 1 - Minimalist Application Development / Docker / Kubernetes
 
 ### Tiny App Development: 'SimpleTimeService'
 
@@ -55,7 +55,7 @@
 ---
 
 
-## Task 2 - Terraform and Cloud: the infrastructure to host SimpleTimeService application
+## Step 2 - Terraform and Cloud: the infrastructure to host SimpleTimeService application
 
 ### 🛠️ Infrastructure Overview
 
